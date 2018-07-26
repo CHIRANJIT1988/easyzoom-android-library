@@ -1,0 +1,59 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+
+
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+}
+
+
+
+ext {
+    bintrayRepo = 'android-library' // your repo name
+    bintrayName = 'easyzoom' // has to be same as your library module name
+    publishedGroupId = 'com.chiranjit.ui' // your module package name
+    libraryName = 'easyzoom'
+    artifact = 'easyzoom' // has to be same as your library module name
+    libraryDescription = 'This image view helps to zoom image on pinch'
+    siteUrl = 'https://github.com/chiranjit/easyzoom'
+    gitUrl = 'https://github.com/chiranjit/easyzoom.git'
+    libraryVersion = '1.0.0'
+    developerId = 'chiranjitbardhan'
+    developerName = 'Chiranjit'
+    developerEmail = 'bardhan.jit@gmail.com'
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle'
+apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle'
