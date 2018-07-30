@@ -32,26 +32,3 @@ dependencies {
 
     implementation 'com.github.bumptech.glide:glide:4.7.1'
 }
-
-
-
-ext {
-    bintrayRepo = 'android-library-easyzoomimageviewer' // your repo name
-    bintrayName = 'easyzoom' // has to be same as your library module name
-    publishedGroupId = 'com.chiranjit.ui' // your module package name
-    libraryName = 'easyzoom'
-    artifact = 'easyzoom' // has to be same as your library module name
-    libraryDescription = 'This image view helps to zoom image on pinch'
-    siteUrl = 'https://github.com/CHIRANJIT1988/easyzoom-android-library'
-    gitUrl = 'https://github.com/CHIRANJIT1988/easyzoom-android-library.git'
-    libraryVersion = '1.0.1'
-    developerId = 'chiranjitbardhan'
-    developerName = 'Chiranjit Bardhan'
-    developerEmail = 'bardhan.jit@gmail.com'
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-}
-
-apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle'
-apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle'
