@@ -70,7 +70,7 @@ Below is the Glide version for this library. This information may helpful if fou
 com.github.bumptech.glide:glide:4.7.1
 ```
 
-# LICENSE
+## LICENSE
 
 ```
 Copyright 2017 Google
