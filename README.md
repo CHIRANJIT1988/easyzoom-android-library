@@ -9,7 +9,7 @@ EasyZoomImageViewer is installed by adding the following dependency to your buil
 
 ```
 dependencies {
-    implementation ''com.chiranjit.ui:easyzoom:1.0.1'
+    implementation 'com.chiranjit.ui:easyzoom:1.0.1'
 }
 ```
 
