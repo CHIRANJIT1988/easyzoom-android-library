@@ -13,7 +13,7 @@ dependencies {
 }
 ```
 
-Note that EasyPermissions depends on Android Support Library 27.1.1 so you will need to use compileSdkVersion 27 or higher. This change should be safe as compileSdkVersion does not change app behavior.
+Note that EasyZoomImageViewer depends on Android Support Library 27.1.1 so you will need to use compileSdkVersion 27 or higher. This change should be safe as compileSdkVersion does not change app behavior.
 
 # Usage
 
