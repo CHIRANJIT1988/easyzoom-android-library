@@ -64,7 +64,7 @@ Layout file:
 
 ### Glide Version
 
-Glide dependency used for this library. This information may helpful if found any glide dependance conflict
+Glide dependency used for this library for loading image. This information may helpful if found any glide dependancy conflict on your project
 
 ```
 com.github.bumptech.glide:glide:4.7.1
