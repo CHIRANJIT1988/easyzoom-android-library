@@ -64,7 +64,7 @@ Layout file:
 
 ### Glide Version
 
-Below is the Glide version for this library. This information may helpful if found any conflict
+Glide dependency used for this library. This information may helpful if found any glide dependance conflict
 
 ```
 com.github.bumptech.glide:glide:4.7.1
